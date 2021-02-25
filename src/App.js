@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ParticleBackground from "./ParticleBackground";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ParticleBackground />
+      <CenterTitle />
+    </div>
+  );
+}
+
+function CenterTitle() {
+  return (
+    <div id="text_div center_all">
+      <div className="center_all">
+        <h1 className="custom-subTitle">Particle JS Integration</h1>
+      </div>
     </div>
   );
 }
