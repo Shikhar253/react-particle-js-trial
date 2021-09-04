@@ -1,18 +1,34 @@
-#text_div {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: 10px;
+*{
+  margin: 0;
+  padding: 0;
 }
+section{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.center_all {
+}
+.one{
+  background-color:#fff;
+  position: relative;
+}
+.two{
+  background-color:green;
+}
+.three{
+  background-color:yellow;
+}
+.four{
+  background-color:blue;
+}
+.pgb{
+  position:absolute;
+}
+.hero{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  color: white;
+}
+canvas{
+  background-color :blue;
+
 }

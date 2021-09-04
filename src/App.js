@@ -3,20 +3,21 @@ import ParticleBackground from "./ParticleBackground";
 
 function App() {
   return (
-    <div>
-      <ParticleBackground />
-      <CenterTitle />
-    </div>
-  );
-}
-
-function CenterTitle() {
-  return (
-    <div id="text_div center_all">
-      <div className="center_all">
-        <h1 className="custom-subTitle">Particle JS Integration</h1>
+    <>
+      <div >
+        <section className="one">
+          <div className="pgb">
+          <ParticleBackground />
+          </div>
+          <div className="hero">
+            Title
+          </div>
+        </section>
+        <section className="two">b</section>
+        <section className="three">a</section>
+        <section className="four">a</section>
       </div>
-    </div>
+    </>
   );
 }
 
